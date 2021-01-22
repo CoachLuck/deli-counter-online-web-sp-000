@@ -6,7 +6,7 @@ def line(arr)
      puts "The line is currently empty."
   else
      x = arr.map.with_index { |name, idx| "#{idx + 1}. #{name}"}
-     puts "The line is currently: "
+     puts "The line is currently: #{x.join(" ")}"
    end
 end
 
