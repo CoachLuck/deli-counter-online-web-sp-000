@@ -5,9 +5,8 @@ def line(arr)
   if arr.empty?
      puts "The line is currently empty."
   else
-     arr.each_with_index {|name, idx|
-       puts "Welcome, #{name}. You are number #{idx + 1} in line."
-     }
+     x = arr.map.with_index { |name, idx| "#{idx + 1}. #{name}"}
+     puts "The line is currently: "
    end
 end
 
