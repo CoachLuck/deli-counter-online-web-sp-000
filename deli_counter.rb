@@ -15,6 +15,6 @@ def now_serving(arr)
   if arr.empty?
     puts "There is nobody waiting to be served!"
   else
-    puts arr.shift()
+    puts "#{arr.shift()}"
   end
 end
